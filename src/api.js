@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const Router = require("./routes")
+const Router = require("../routes")
 const serverless = require("serverless-http");
 
 const app = express();

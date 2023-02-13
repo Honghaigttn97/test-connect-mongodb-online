@@ -5,5 +5,21 @@
   },
   "scripts": {
     "start": "node server.js"
-  }
+  },
+  "name": "test-connect-mongodb",
+  "version": "1.0.0",
+  "main": "models.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Honghaigttn97/test-connect-mongodb-online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Honghaigttn97/test-connect-mongodb-online/issues"
+  },
+  "homepage": "https://github.com/Honghaigttn97/test-connect-mongodb-online#readme",
+  "description": ""
 }

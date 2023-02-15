@@ -1,7 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const Router = require("../routes")
-const serverless = require("serverless-http");
+const Router = require("./routes")
 
 const app = express();
 
@@ -36,6 +35,3 @@ app.use(`/.netlify/functions/api`, router);
 app.listen(3000 || process.env.PORT, () => {
     console.log("Server is running at port 3000");
 });
-
-module.exports = app;
-module.exports.handler = serverless(app) 

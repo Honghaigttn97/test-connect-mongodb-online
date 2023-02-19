@@ -23,4 +23,11 @@ app.get("/users", async (request, response) => {
     }
 });
 
+app.get("/my-info", async (req, res) => {
+    res.send({
+        'name': 'Nguyen Hong Hai',
+        'address': 'Thai Nguyen'
+    })
+})
+
 module.exports = app;
